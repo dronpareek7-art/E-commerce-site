@@ -21,7 +21,7 @@ function showdata(data) {
     const buybtn = document.createElement("button")
     const anchor = document.createElement("a")
 
- anchor.href = `../single-product/index2.html?id=${item.id}`;
+ anchor.href = `./single-product/index2.html?id=${item.id}`;
 
 
     div.classList.add("box")
